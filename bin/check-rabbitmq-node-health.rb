@@ -27,7 +27,7 @@
 
 require 'sensu-plugin/check/cli'
 require 'json'
-require 'rest_client'
+require 'rest-client'
 
 # main plugin class
 class CheckRabbitMQNodeHealth < Sensu::Plugin::Check::CLI
